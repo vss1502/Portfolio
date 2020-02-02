@@ -10,7 +10,7 @@ https://wonderful-banach-bbb583.netlify.com
 https://epic-franklin-7e9994.netlify.com
 
 
-№ Image-API 
+# Image-API 
 
 Приложение для рисования с использованием Canvas, работа с API (https://unsplash.com/)  
 https://sad-bartik-2f2cd8.netlify.com
