@@ -93,9 +93,4 @@ canv.addEventListener('mousemove', function(e) {
       })
   }
 
-
-  function Getting (){
-    
-  }
- 
     
