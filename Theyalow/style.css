@@ -1,0 +1,686 @@
+body {
+  position: relative;
+  width: 1300px;
+  margin: 0 auto;
+}
+.wrapper {
+  display: flex;
+  margin: 0 auto;
+  width: 1020px; 
+}
+header {
+  position: absolute;
+  width: 100%;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  margin-top: 27px;
+}
+.logoImg {
+  height: 83px;
+}
+.logo1 {
+  position: relative;
+  display: block;
+}
+.logo2 {
+  position: relative;
+  display: block;
+  top: -81px;
+  left: 3px;
+}
+.banner {
+  background: url("assets/img/Layer20.png");
+  background-size: cover;
+  height: 566px;
+}
+h1 {
+  padding-top: 12px;
+  padding-left: 5px;
+  text-transform: uppercase;
+  font-size: 41px;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+  font-family: "Lucida Sans";
+  font-style: italic;
+}
+nav {
+  margin-left: 255px;
+}
+ul {
+  display: flex;
+  margin-top: 70px;
+  box-shadow:  -4px -4px 0px 0px #9c8717, -8px -8px 0px 0px #7b6d21;
+}
+.menu {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  height: 42px;
+  background-color: #f5c506;
+}
+.about {
+  width: 171px;
+  border-right: 1px solid #dcb105;
+} 
+.about img {
+  padding-left: 38px;
+}
+.services {
+  width: 133px;
+  border-right: 1px solid #dcb105;
+}
+.services img{
+  padding-left: 14px;
+}
+.contact {
+  width: 147px;
+}
+.contact img {
+  padding-left: 16px;
+}
+li a {
+  text-decoration: none;
+}
+li a:hover{
+  background-color: #c7a623;
+}
+.menu p {
+  padding-left: 9px; 
+  font-size: 17px;
+  letter-spacing: 0.3px;
+  color: #9b7d08;
+  font-family: "Segoe WP";
+  text-align: center;
+  text-transform: uppercase;
+}
+section {
+  display: flex;
+}
+.banner video {
+  margin-top: 168px;
+  margin-left: 10px;
+  height: 327px;
+  width: 549px;
+}
+.inscription {
+  margin-left: 50px;
+  font-size: 63px;
+  letter-spacing: 0.7px;
+  color: #f5c506;
+  font-family: "Asap";
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.first-inscription {
+  margin-top: 247px;
+  margin-left: 40px;
+}
+.second-inscription {
+  color: #ffffff;
+  margin-top: 12px;
+  margin-left: 0px;
+}
+.buttons {
+  position: absolute;
+  display: flex;
+  top: 300px;
+  justify-content: center;
+  width: 32px;
+  height: 57px;
+  background-color: #f5c506;
+}
+.next {
+  right: 0;
+}
+.buttons:hover {
+  background-color: #f5cb26;
+  cursor: pointer;
+}
+.icon-area {
+  background: url("assets/img/Layer7.png");
+  background-size: cover;
+  height: 212px;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 340px;
+  border-left: 1px solid #d4d4d4;
+}
+.icon:last-child {
+  border-right: 1px solid #d4d4d4;
+}
+.icon p {
+  margin-top: 15px;
+  margin-bottom: 35px;
+  font-size: 27px;
+letter-spacing: 0px;
+color: #000000;
+font-family: "Segoe UI";
+font-weight: 300;
+text-transform: uppercase;
+}
+.section1 {
+  background: url("assets/img/Layer10.png");
+  background-size: cover;
+  height: 506px;
+}
+.section1 .wrapper {
+  flex-direction: column;
+}
+hr {
+  margin: 0;
+  padding: 0;
+  height: 2px;
+  background-color: #bdaa5e;
+  border: none;
+  box-shadow: 1px 1px 1px 1px #bdaa5e;
+}
+.section1 h3 {
+  margin-top: 35px;
+  font-size: 37px;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+  font-family: "PT Sans";
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.items {
+  display: flex;
+  margin: 0;
+ margin-top: 36px;
+ height: 233px;
+}
+.item1 {
+  width: 340px;
+  height: 233px;
+  background-color: #ec9e03;
+}
+.item1 p {
+padding-left: 30px;
+padding-top: 16px;
+font-size: 29px;
+letter-spacing: 0.3px;
+line-height: 38px;
+color: #ffffff;
+font-family: "Segoe WP";
+font-weight: 300;
+word-break: break-word;
+}
+.item1 a {
+  display: block;
+  float: right;
+  margin-right: 14px;
+  text-decoration: none;
+}
+.item2 video{
+  width: 314px;
+  height: 233px;
+}
+.item3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-left: 34px;
+  width: 329px;
+  height: 233px;
+  background-color: #ec9e03;
+}
+.item3 p {
+  margin-right: 17px;
+  margin-top: 9px;
+  font-size: 25px;
+  letter-spacing: 0px;
+  line-height: 38px;
+  color: #ffffff;
+  font-family: "Segoe WP";
+  font-weight: 300;
+}
+.item3 img {
+  margin: 0 auto;
+}
+.item3 a {
+  margin-bottom: 10px;
+  margin-right: 9px;
+}
+.calendar {
+ width: 113px;
+ height: 86px;
+ background-color: #ddb101;
+}
+.date {
+  margin-top: 12px;
+  margin-left: 29px;
+  font-size: 51px;
+  letter-spacing: 1px;
+  line-height: 38px;
+  color: #ffffff;
+  font-family: "Segoe UI";
+  font-weight: bold;
+}
+.month {
+  margin-top: 0;
+  margin-left: 32px;
+  font-size: 21px;
+  letter-spacing: 0px;
+  line-height: 38px;
+  color: #b26529;
+  font-family: "Segoe UI";
+  text-transform: uppercase;
+}
+.range {
+  margin: 0 auto;
+  margin-top: 42px;
+}
+input[type='range'] {
+  overflow: hidden;
+  width: 896px;
+  -webkit-appearance: none;
+  background-color: #fbe797;
+  border-radius: 7px;
+}
+input[type='range']::-webkit-slider-runnable-track {
+  height: 15px;
+  -webkit-appearance: none;
+  margin-top: -1px;
+}
+input[type='range']::-webkit-slider-thumb {
+  width: 197px;
+  -webkit-appearance: none;
+  height: 15px;
+  cursor: pointer;
+  background: #ec9e03;
+  border-radius: 7px;
+}
+.mobile-twitter {
+  display: none;
+}
+.section2 {
+  background: url("assets/img/Layer32.png");
+  background-size: cover;
+  height: 497px;
+}
+.section2 .wrapper {
+  flex-direction: column;
+}
+.promo {
+  position: relative;
+}
+.section2 h3 {
+  margin: 0 auto;
+  margin-top: 43px;
+  text-transform: uppercase;
+  font-size: 43px;
+  letter-spacing: 0.3px;
+  color: #f5c506;
+  font-family: "PT Sans";
+  font-weight: 400;
+} 
+.pictures {
+  display: flex;
+}
+.desktop {
+width: 323px;
+height: 255px;
+margin-top: 51px;
+margin-left: 19px;
+}
+.tablet {
+  width: 129px;
+  height: 173px;
+  margin-top: 93px;
+  margin-left: 24px;
+}
+.mobile {
+  width: 39px;
+  height: 63px;
+  margin-top: 203px;
+  margin-left: 24px;
+}
+.texts {
+  margin-top: 97px;
+  margin-left: 79px;
+}
+.list {
+  display: flex;
+  align-items: baseline;
+}
+.list p {
+  margin-left: 20px;
+  margin-bottom: 26px;
+  font-size: 22px;
+  letter-spacing: 0.1px;
+  color: #a9a9a7;
+  font-family: "Open Sans";
+  font-weight: 400; 
+}
+.list img {
+  width: 15px;
+  height: 15px;
+}
+.free {
+  position: absolute;
+  top: 8px;
+  left: -2px;
+}
+.free p {
+  position: absolute;
+  top: 51px;
+  left: 8px;
+  text-transform: uppercase;
+  font-size: 19px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-family: "PT Sans Narrow";
+  font-weight: 700;
+}
+footer {
+  background-color: #4c4c4c;
+  height: 79px;
+  box-shadow: 0px -3px 5px 0px #1b1b1b;
+}
+.logo-footer {
+  display: flex;
+  align-items: flex-start;
+ justify-content: center;
+}
+.img-footer {
+  margin-top: 5px;
+  height: 83px;
+}
+.logo3 {
+  position: relative;
+  display: block;
+}
+.logo4 {
+  position: relative;
+  display: block;
+  top: -53px;
+  left: 2px;
+}
+.logo-footer p {
+  margin-top: 19px;
+  margin-left: 3px;
+  font-size: 29px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-family: "Lucida Sans";
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 640px) {
+  body {
+    width: 640px;
+  }
+.wrapper {
+  width: 640px; 
+}
+header {
+  position: static;
+  height: 62px;
+  }
+.logo {
+    height: 62px;
+    width: 186px;
+    margin: 0;
+    background-color: #595959;;
+  }
+.logoImg {
+    margin-left: 12px;
+    margin-top: 42px;
+  }
+.logo1 {
+    width: 40px;
+    height: 39px;
+  }
+.logo2 {
+    width: 38px;
+    height: 37px;
+    top: -38px;
+    left: 1px;
+  }
+h1 {
+    font-size: 19px;
+    padding-top: 4px;
+    letter-spacing: 0.6px;
+  }
+nav {
+    margin-left: 0;
+  }
+ul {
+    display: flex;
+    margin-top: 0;
+    box-shadow:none;
+  }
+.menu {
+    height: 62px;
+  }
+.about {
+    width: 171px;
+  } 
+.about img {
+    padding-left: 23px;
+    width: 24px;
+    height: 22px;
+}
+.services img{
+    padding-left: 7px;
+    width: 22px;
+    height: 23px;
+}
+.services p {
+    padding-left: 11px;
+}
+.menu p {
+  padding-left: 11px;
+  font-size: 19px;
+  letter-spacing: 0;
+}
+.banner{
+    background: none;
+    height: 325px;
+}
+.banner video {
+  margin: 0;
+  height: 325px;
+  width: 640px;
+   object-fit: cover;
+  }
+.inscription {
+  display: none;
+}
+.buttons {
+  display: none;
+  }
+.icon-area {
+  height: 170px;
+  box-shadow:  0px -2px 0px 0px #bcd5d3;
+}
+ .icon {
+  width: 213px;
+  border-left: none;
+}
+.icon1 {
+  width: 89px;
+  height: 61px;
+  margin-left: 5px;
+}
+  .icon2 {
+    width: 67px;
+    height: 69px;
+  }
+  .icon3 {
+    width: 68px;
+    height: 69px;
+  }
+  .icon p { 
+    font-size: 23px;
+  }
+  .section1 {
+    background: none;
+    height: 250px;
+  }
+  .section1 h3 {
+    display: none;
+  }
+  hr {
+    display: none;
+  }
+  .items {
+   margin-top: 5px;
+   width: 640px;
+   height: 233px;
+  }
+  .item1 {
+    margin-left: 9px;
+    margin-top: 6px;
+    width: 299px;
+    height: 234px;
+  }
+  .item1 p {
+    padding-top: 14px;
+    padding-left: 21px;
+    padding-right: 17px;
+    letter-spacing: 0.5px;
+    line-height: 38px;
+    }
+  .item2 video{
+    width: 315px;
+    height: 234px;
+    margin-top: 5px;
+    margin-left: 9px;
+    object-fit: cover;
+  }
+  .item3 {
+    display: none;
+  }
+  .calendar {
+    display: none;
+  }
+  .range {
+    display: none;
+  }
+  .list {
+    display: none;
+  }
+  .section2{
+    height: 467px;
+    background: #474747;
+  }
+  .desktop {
+    margin-top: 71px;
+    margin-left: 56px;
+    }
+    .tablet {
+      margin-top: 113px;
+      margin-left: 24px;;
+    }
+    .mobile {
+      margin-top: 222px;
+      margin-left: 26px;
+    }
+    .free {
+      position: absolute;
+      top: 28px;
+      left: 26px;
+    }
+    .img-footer {
+      margin-top: 5px;
+     margin-left: 65px;
+    }
+    .logo3 {
+      width: 31px;
+      height: 31px;
+    }
+    .logo4 {
+      width: 29px;
+      height: 29px;
+      top: -30px;
+      left: 1px;
+    }
+    .logo3 {
+      width: 31px;
+      height: 31px;
+    }
+    .logo4 {
+      width: 29px;
+      height: 29px;
+      top: -30px;
+      left: 1px;
+    }
+    .logo-footer p {
+      margin-top: 14px;
+      margin-left: 8px;
+      font-size: 17px;
+    }
+    .mobile-twitter {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 2px;
+      height: 235px;
+      background: #dcb105;
+    }
+    .mobile-twitter img {
+      margin-left: 82px;
+      margin-top: 23px;
+    }
+    .message {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      margin-top: 21px;
+      margin-right: 32px;
+    }
+    .message p {
+      background-image: url(assets/img/Rectangle2.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 10px;
+      height: 43px;
+      width: 233px;
+      font-size: 13px;
+      letter-spacing: 0px;
+      color: #8f8e8e;
+      font-family: "Arial";
+      margin-right: 0px;
+      margin-bottom: 15px;
+      margin-left: 5px;
+      padding-left: 31px;
+      padding-right: 23px;
+      padding-top: 9px;
+    }
+
+    .message p:first-child{
+      background-image: url(assets/img/Rectangle.png);
+    }
+    .tweet {
+      margin-right: 5px;
+      margin-bottom: 10px;
+    }
+    input {
+      margin-right: -14px;
+      margin-left: 19px;
+      width: 210px;
+      height: 31px;
+      border-radius: 10px;
+      background-color: #ffffff;
+      border: 1px solid rgba(0,0,0,0.15);
+    }
+
+    .message button {
+     margin-right: -5px;
+      background-color: #e09f1d;
+      color: #ffffff;
+      width: 70px;
+      height: 34px;
+      border: none;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    } 
+}
