@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>codejam-palette</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header>
+    <img src="assets/nav icon.png" alt="icon">
+    <h1>CodeJam - Palette</h1>
+  </header>
+  <main>
+    <aside>
+      <div class="tools">
+        <ul>
+          <li>
+            <img src="assets/pencil.png" alt="">
+            <button id="pencil" class="pencil">Pencil</button>
+          </li>
+          <li>
+              <img src="assets/clear.png" alt="">
+            <button id="clearAll" class="clearAll">Clear All</button>
+          </li>
+          <li>
+              <img src="assets/eraser.png" alt="">
+            <button id="clear" class="clear">Clear</button>
+          </li>
+          <li>
+            <input type="color" id = "color" value="#F74141">
+            <p>Current color</p>
+          </li>
+        </ul>
+      </div>
+      </aside>
+      <div class="field">
+        <div>
+        <input type="text" id="search" placeholder="Search Photos">
+        <button onclick="SearchPhotos()">Search</button>
+        </div>
+        <canvas id="picture" width="512px" height="512px"></canvas>
+     </div>
+  </main>
+</body>
+<script src="main.js"></script>
+</html>
