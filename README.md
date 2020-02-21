@@ -14,3 +14,9 @@ https://epic-franklin-7e9994.netlify.com
 
 Приложение для рисования с использованием Canvas, работа с API (https://unsplash.com/)  
 https://sad-bartik-2f2cd8.netlify.com
+
+
+# Weather (React)
+
+React приложение - прогноз погоды в г. Харьков, работа с API (https://openweathermap.org/)  
+https://cocky-allen-5e9499.netlify.com/
