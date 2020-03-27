@@ -1,0 +1,98 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-size: cover;
+  min-height: 100vh;
+  text-align: center;
+  background-image: url(./assets/kharkiv.jpg);
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+.currentDate {
+  font-size: 40px;
+  font-weight: bolder;
+  margin: 0;
+  padding-top: 40px;
+}
+
+h1 {
+  font-size: 70px;
+  margin: 0;
+  padding: 0;
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.temperature {
+  padding: 0;
+  padding-top: 80px;
+  margin: 0;
+  font-weight: bold;
+  font-size: 200px;
+  text-transform: uppercase;
+
+}
+
+.details {
+  margin: 0;
+  list-style: none;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.details li {
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.details img {
+  width: 200px;
+  height: 200px;
+}
+
+.days {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+  
+ 
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 130px;
+  background-color: rgba(140, 176, 197, 0.5);
+  margin-right: 20px;
+  border-radius: 20px;
+  
+}
+
+.day:hover {
+  background-color: rgba(140, 176, 197, 0.8);
+}
+
+.day p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.day p:first-child {
+  padding-top: 10px;
+}
+
+.day p:last-child {
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
