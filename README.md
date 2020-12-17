@@ -1,3 +1,8 @@
+# Гриль-очаг
+
+Лендинг костровых чаш. Адаптивная верстка, JQuery, Scss, Fancybox.  
+https://dreamy-meninsky-fbe610.netlify.app
+
 # Weather (React)
 
 React приложение - прогноз погоды в г. Харьков, работа с API (https://openweathermap.org/)  
