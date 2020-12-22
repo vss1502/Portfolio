@@ -3,6 +3,16 @@
 Лендинг костровых чаш. Адаптивная верстка, JQuery, Scss, Fancybox.  
 https://dreamy-meninsky-fbe610.netlify.app
 
+# Самогонный аппарат "Профи"
+
+Лендинг самогонного аппарата "Профи". Адаптивная верстка, JQuery, LazyLoad, SlickSlider.  
+https://awesome-wing-ef06d0.netlify.app
+
+# Самогонный аппарат "Старт"
+
+Лендинг самогонного аппарата "Старт". Мобильная версия, JQuery, LazyLoad, SlickSlider.  
+https://wizardly-meitner-7ecf8c.netlify.app
+
 # Weather (React)
 
 React приложение - прогноз погоды в г. Харьков, работа с API (https://openweathermap.org/)  
