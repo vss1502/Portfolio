@@ -1,3 +1,5 @@
+# Здесь можно посмотреть примеры моих работ :)  
+
 # Гриль-очаг
 
 Лендинг костровых чаш. Адаптивная верстка, JQuery, Scss, Fancybox.  
@@ -11,7 +13,12 @@ https://awesome-wing-ef06d0.netlify.app
 # Пивоварня "Крафт"
 
 Лендинг пивоварни "Крафт". Адаптивная верстка, JQuery, LazyLoad, SlickSlider.  
-https://focused-sinoussi-ea578a.netlify.app
+https://focused-sinoussi-ea578a.netlify.app  
+
+# Пивоварня "Крафт" (второй вариант)
+
+Лендинг пивоварни "Крафт". Адаптивная верстка, JQuery, LazyLoad.  
+https://kind-leakey-9bc691.netlify.app
 
 # Самогонный аппарат "Старт"
 
