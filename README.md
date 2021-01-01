@@ -8,6 +8,11 @@ https://dreamy-meninsky-fbe610.netlify.app
 Лендинг самогонного аппарата "Профи". Адаптивная верстка, JQuery, LazyLoad, SlickSlider.  
 https://awesome-wing-ef06d0.netlify.app
 
+# Пивоварня "Крафт"
+
+Лендинг пивоварни "Крафт". Адаптивная верстка, JQuery, LazyLoad, SlickSlider.  
+https://focused-sinoussi-ea578a.netlify.app
+
 # Самогонный аппарат "Старт"
 
 Лендинг самогонного аппарата "Старт". Мобильная версия, JQuery, LazyLoad, SlickSlider.  
