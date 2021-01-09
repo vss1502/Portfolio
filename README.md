@@ -1,5 +1,10 @@
 # Здесь можно посмотреть примеры моих работ :)  
 
+# Sea fishing
+
+Шаблон лендинга морской рыбалки. Адаптивная верстка, Gulp, Scss, WOW.js.  
+https://gallant-lichterman-90f0b3.netlify.app/
+
 # Гриль-очаг
 
 Лендинг костровых чаш. Адаптивная верстка, JQuery, Scss, Fancybox.  
