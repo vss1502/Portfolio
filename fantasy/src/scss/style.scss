@@ -1,0 +1,698 @@
+@import "reset.scss";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cinzel', serif;
+    background: url(../images/fantasy-body-bg.png);
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    .header_inner {
+        height: 60px;
+        display: flex;
+        justify-content: space-around;
+        background: url(../images/header_bg_fantasy.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+
+        .nav {
+            @media (max-width: 992px) {
+                display: none;
+            }
+        }
+
+        .nav-item {
+            display: inline-block;
+            padding: 20px 15px ;
+            a {
+                text-decoration: none;
+                text-transform: uppercase;
+                color: #b9c8d4;
+                font-size: 14px;
+                font-weight: 700;
+
+                &:hover {
+                    color: #925c42;
+                }
+            }
+        }
+
+        .logo {
+            img {
+                max-height: 99px;
+            }
+        }
+
+        .gamb {
+            display: none;
+            @media (max-width: 992px) {
+                display: block;
+            }
+        }
+    }
+}
+
+.top {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+
+    @media (max-width: 768px) {
+        height: 50vh;
+    }
+    
+
+    .top_img {
+        position: absolute;
+        z-index: 1;
+        max-width: 90%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: block;
+
+    }
+
+    .top_bottom-img {
+        position: absolute;
+        z-index: 2;
+        bottom: 0;
+
+        @media (max-width: 768px) {
+            height: 20%;
+        }
+    }
+   
+    
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url(../images/slider_bg_fantasy.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        animation: firstbg 30s ;
+        animation-fill-mode: forwards;
+
+        @media (max-width: 768px) {
+            background-size: contain;
+        }
+
+        @media (max-width: 576px) {
+            background-size: cover;
+        }
+       
+        
+    }
+}
+
+@keyframes firstbg {
+    100% {
+        transform: scale(1.2);
+    }
+} 
+
+.choose {
+    padding-top: 120px;
+    margin-top: -50px;
+    .choose_inner {
+        position: relative;
+        padding: 80px 20px 20px;
+        margin-bottom: 100px;
+        background: url(../images/fantasy-section-bg.png);
+        box-shadow: 0px 0px 19px 5px rgb(80, 57, 39) inset;
+    
+        .choose_character {
+            position: absolute;
+            top: -30px;
+            left: 0;
+            right: 0;
+            width: 400px;
+            height: 60px;
+            text-align: center;
+            margin: auto;
+            background: url(../images/fantasy-section-bg.png);
+            z-index: 3;
+            box-shadow: 0px 0px 19px 5px rgb(80, 57, 39) inset;
+    
+            @media (max-width: 576px) {
+                width: 250px;
+            }
+    
+            h5 {
+                font-size: 17px;
+                font-weight: 700;
+                letter-spacing: 4px;
+                line-height: 26px;
+                color: #482210;
+                padding-top: 20px;
+                text-transform: uppercase;
+            }
+        }
+    
+        .choose_img {
+            display: block;
+            margin: auto;
+            margin-bottom: 30px;
+        }
+    
+        .choose_title {
+            text-align: center;
+            font-size: 48px;
+            font-weight: 700;
+            letter-spacing: 0px;
+            line-height: 58px;
+            color: #482210;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+    
+            @media (max-width: 576px) {
+                font-size: 32px;
+            }
+        }
+    
+        .characters {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+    
+            .character_item {
+                width: 30%;
+                margin-bottom: 30px;
+    
+                @media (max-width: 768px) {
+                    width: 100%;
+                }
+    
+                img {
+                    width: 100%;
+                    margin-bottom: 20px;
+                    transition: all 0.5s ease;
+                }
+    
+                a {
+                    position: relative;
+                    text-decoration: none;
+                    display: block;
+                    font-size: 21px;
+                    font-weight: 700;
+                    letter-spacing: 0px;
+                    line-height: 25px;
+                    text-transform: uppercase;
+                    color: #482210;
+                    text-align: center;
+                    cursor: pointer;
+                   
+                   p{
+                       position: relative;
+                    &::before {
+                        display: block;
+                        top: -10px;
+                        left: 0;
+                        right: 0;
+                        margin: auto;
+                        position: absolute;
+                        content: '';
+                        width: 0;
+                        height: 0;
+                        background-color: #482210;
+                        transition: all 0.3s ease-in-out;
+                    }
+                   }
+                   
+    
+                   &:hover { 
+                       img {
+                        transform: translateY(-10px);
+                       }
+                       p::before {
+                        width: 30%;
+                        height: 3px;
+                       }
+                   }
+                }
+            }
+        }
+        .character_bottom {
+            position: absolute;
+            bottom: -45px;
+            left: 0;
+            right: 0;
+            text-align: center;
+    
+            @media (max-width: 576px) {
+                bottom: 0;
+            }
+    
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+.explore {
+    padding-top: 120px;
+    margin-top: -50px;
+    .explore_inner {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+    
+        @media (max-width: 992px) {
+            display: block;
+        }
+        .explore_content {
+            padding: 0 5% 100px;
+            background: url(../images/fantasy-section-bg.png);
+            width: 50%;
+            max-height: 800px;
+            box-shadow: 0px 0px 19px 5px rgb(80, 57, 39) inset;
+    
+            @media (max-width: 992px) {
+                width: auto;
+            }
+    
+    
+            .explore_title {
+                font-size: 48px;
+                font-weight: 700;
+                letter-spacing: 0px;
+                line-height: 58px;
+                color: #482210;
+                text-transform: uppercase;
+                margin-bottom: 35px;
+            }
+    
+            .explore_text {
+                color: #634430;
+                font-family: 'PT Serif', serif;
+                line-height: 32px;
+                margin-bottom: 30px;
+    
+                span {
+                    display: block;
+                    float: left;
+                    color: #482210;
+                    height: 70px;
+                    line-height: 70px;
+                    font-weight: 700;
+                    width: 60px;
+                    font-size: 70px;
+                }
+            }
+    
+            a {
+                display: inline-block;
+                color: #482210;
+                text-decoration: none;
+                padding: 15px 30px;
+                border: 2px solid #482210;
+                font-family: 'PT Serif', serif;
+                transition: all 0.5s ease;
+    
+                &:hover {
+                    background: #a38271;
+                }
+            }
+        }
+    
+         .explore_map {
+            width: 50%;
+            
+            @media (max-width: 992px) {
+                width: auto;
+            }
+    
+            img {
+                width: 100%;
+                max-height: 800px;
+                box-shadow: 0px 0px 19px 5px rgb(80, 57, 39) inset;
+            }
+        }
+    }
+}
+
+.world {
+    padding-top: 120px;
+    margin-top: -50px;
+    .world_inner {
+        position: relative;
+        background: url(../images/gallery_fantasy-1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 100px;
+        box-shadow: 0px 0px 19px 5px rgb(0, 0, 0) inset;
+    
+        .world_top {
+            position: absolute;
+            top: -30px;
+            left: 0;
+            right: 0;
+            width: 400px;
+            height: 60px;
+            text-align: center;
+            margin: auto;
+            background: url(../images/fantasy-section-bg.png);
+            z-index: 3;
+            box-shadow: 0px 0px 19px 5px rgb(80, 57, 39) inset;
+    
+            @media (max-width: 576px) {
+                width: 250px;
+            }
+    
+            h5 {
+                font-size: 17px;
+                font-weight: 700;
+                letter-spacing: 4px;
+                line-height: 26px;
+                color: #482210;
+                padding-top: 20px;
+                text-transform: uppercase;
+            }
+        }
+        
+        .world_content {
+            padding: 180px 10px 180px;
+            h2 {
+                
+                font-size: 48px;
+                font-weight: 700;
+                letter-spacing: 0px;
+                line-height: 58px;
+                color: #c6ae93;
+                text-align: center;
+                margin-bottom: 70px;
+            }
+        
+            .world_link {
+                width: 250px;
+                margin: auto;
+                border: 2px solid #c6ae93;
+                text-align: center;
+                border-radius: 3px;
+                transition: all 0.3s ease;
+    
+                &:hover {
+                    border: 2px solid #695b4a;
+                }
+        
+               a {
+                   display: block;
+                   padding: 15px 10px;
+                   color: #c6ae93;
+                   text-decoration: none;
+               }
+            }
+        }
+    }
+}
+
+.inside {
+    padding-top: 120px;
+    margin-top: -50px;
+    .inside_inner {
+        background: url(../images/fantasy-section-bg.png);
+        box-shadow: 0px 0px 19px 5px rgb(80, 57, 39) inset;
+        padding: 100px 10px 50px;
+        position: relative;
+    
+        .inside_top {
+            position: absolute;
+            top: -30px;
+            left: 0;
+            right: 0;
+            width: 400px;
+            height: 60px;
+            text-align: center;
+            margin: auto;
+            background: url(../images/fantasy-section-bg.png);
+            z-index: 3;
+            box-shadow: 0px 0px 19px 5px rgb(80, 57, 39) inset;
+    
+            @media (max-width: 576px) {
+                width: 250px;
+            }
+    
+            h5 {
+                font-size: 17px;
+                font-weight: 700;
+                letter-spacing: 4px;
+                line-height: 26px;
+                color: #482210;
+                padding-top: 20px;
+                text-transform: uppercase;
+            }
+        }
+    
+        .inside_content {
+            display: flex;
+            flex-wrap: wrap;
+    
+    
+            .inside_img {
+                width: 50%;
+    
+                @media (max-width: 768px) {
+                    width: 100%;
+                }
+    
+                img {
+                    width: 100%;
+                }
+            }
+    
+            .inside_text {
+                width: 50%;
+                padding: 30px 50px;
+    
+                @media (max-width: 768px) {
+                width: 100%;
+                padding: 30px 20px;
+                }
+    
+                h2 {
+                    font-size: 48px;
+                    font-weight: 700;
+                    letter-spacing: 0px;
+                    line-height: 58px;
+                    color: #482210;
+                    padding-top: 50px;
+                    margin-bottom: 50px;
+                }
+    
+                .inside_btn {
+                    background: url(../images/fantasy-buy-now-button2.png);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    width: 230px;
+                    text-align: center;
+                    margin-bottom: 30px;
+                    
+    
+                    a {
+                        padding: 20px 10px;
+                        display: block;
+                        font-size: 24px;
+                        font-weight: 700;
+                        letter-spacing: 0px;
+                        line-height: 25px;
+                        color: #c3cfd9;
+                        text-decoration: none;
+                        
+                    }
+                }
+    
+                p {
+                    font-family: 'PT Serif', serif;
+                    line-height: 30px;
+                    color: #634430;
+                }
+            }
+        }
+    
+        .inside_desc {
+            display: flex;
+            justify-content: space-around;
+            font-family: 'PT Serif', serif;
+            color: #634430;
+            line-height: 30px;
+            padding: 30px 20px;
+    
+            @media (max-width: 768px) {
+               flex-wrap: wrap;
+                 }
+    
+            .inside_desc-text {
+                width: 66%;
+                text-align: right;
+    
+                @media (max-width: 768px) {
+                   width: 100%;
+                   margin-bottom: 30px;
+                   text-align: left;
+                    }
+            }
+    
+            .inside_desc-years,
+            .inside_desc-players {
+                h3 {
+                    font-size: 38px;
+                    font-weight: 700;
+                    letter-spacing: 0px;
+                    line-height: 44px;
+                }
+    
+                p {
+                    font-family: 'PT Serif', serif;
+                }
+            }
+        }
+    }
+}
+
+
+.contacts {
+
+    .contacts_inner {
+        background: url(../images/footer_bg_fantasy.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 60px 20px;
+
+        img {
+            display: block;
+            margin: auto;
+            margin-bottom: 30px;
+        }
+
+        p {
+            font-family: 'PT Serif', serif;
+            text-align: center;
+            color: #d9c6ab;
+            line-height: 30px;
+        }
+    }
+}
+
+.footer {
+    .footer_inner {
+        border-top: 1px solid rgba(255,255,255,.1);
+        padding: 20px;
+        p {
+            text-align: center;
+            color: #797b7f;
+            font-family: 'PT Serif', serif;
+            font-size: 12px;
+        }
+    }
+}
+
+
+#menu__toggle {
+    opacity: 0;
+  }
+  
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    right: 0;
+  }
+  
+  .menu__btn {
+    display: none;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+  
+    width: 26px;
+    height: 26px;
+  
+    cursor: pointer;
+    z-index: 1;
+
+    @media(max-width: 992px){
+        display: flex;
+    }
+  }
+  
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+  
+    width: 100%;
+    height: 2px;
+  
+    background-color: #b4b3b3;
+  
+    transition-duration: .25s;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  
+  .menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    right: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color:#121724;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    transition-duration: .25s;
+  }
+  
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #A6A6A6;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+  }
+  .menu__item:hover {
+    background-color: #CFD8DC;
+  }
