@@ -1,5 +1,10 @@
 # Здесь можно посмотреть примеры моих работ :)  
 
+# Fantasy
+
+Шаблон настольной игры "Fantasy". Адаптивная верстка, Gulp, Scss.  
+https://hardcore-volhard-2cc447.netlify.app/
+
 # Sea fishing
 
 Шаблон лендинга морской рыбалки. Адаптивная верстка, Gulp, Scss, WOW.js.  
