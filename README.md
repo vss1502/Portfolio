@@ -2,7 +2,7 @@
 
 # Fantasy
 
-Шаблон настольной игры "Fantasy". Адаптивная верстка, Gulp, Scss.  
+Шаблон лендинга настольной игры "Fantasy". Адаптивная верстка, Gulp, Scss.  
 https://hardcore-volhard-2cc447.netlify.app/
 
 # Sea fishing
