@@ -3,7 +3,7 @@
 # Fantasy
 
 Шаблон лендинга настольной игры "Fantasy". Адаптивная верстка, Gulp, Scss.  
-https://hardcore-volhard-2cc447.netlify.app/
+https://frosty-nightingale-23effa.netlify.app
 
 # Sea fishing
 
