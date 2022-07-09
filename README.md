@@ -1,9 +1,14 @@
 # Здесь можно посмотреть примеры моих работ :)  
 
+# Modal App
+
+Привожение Vue.js. Создан компонент Modal, который переиспользуется для модальных окон Log in и Sign up. Валидация реализовани с помощью Vuelidate. 
+https://verdant-cocada-b159f4.netlify.app
+
 # Notes App
 
 Мое первое приложение на Vue.js. Приложение для создания заметок. Реализована возможность добавления новой заметки, удаления, валидация, возможность выбора уровня важности, изменение отображения заметок(сетка или список), поиск  
-https://nimble-meerkat-27c1b9.netlify.app/
+https://nimble-meerkat-27c1b9.netlify.app
 
 # Fantasy
 
@@ -13,7 +18,7 @@ https://frosty-nightingale-23effa.netlify.app
 # Sea fishing
 
 Шаблон лендинга морской рыбалки. Адаптивная верстка, Gulp, Scss, WOW.js.  
-https://gallant-lichterman-90f0b3.netlify.app/
+https://gallant-lichterman-90f0b3.netlify.app
 
 # Гриль-очаг
 
