@@ -2,7 +2,7 @@
 
 # Modal App
 
-Привожение Vue.js. Создан компонент Modal, который переиспользуется для модальных окон Log in и Sign up. Валидация реализовани с помощью Vuelidate. 
+Приложение Vue.js. Создан компонент Modal, который переиспользуется для модальных окон Log in и Sign up. Валидация реализовани с помощью Vuelidate. 
 https://verdant-cocada-b159f4.netlify.app
 
 # Notes App
